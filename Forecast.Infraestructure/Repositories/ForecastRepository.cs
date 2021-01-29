@@ -18,7 +18,7 @@ namespace Forecast.Infraestructure.Repositories
             HttpClient httpClient = new HttpClient();
             httpClient.Timeout = TimeSpan.FromSeconds(30);
 
-            using (HttpResponseMessage response = await httpClient.GetAsync("http://api.weatherstack.com/current?access_key=6ec83ed5069540299af476c865186182&query=Curitiba"))
+            using (HttpResponseMessage response = await httpClient.GetAsync("http://api.weatherstack.com/current?access_key={seu token aqui}&query=Curitiba"))
             {
                 if (response.IsSuccessStatusCode)
                 {
