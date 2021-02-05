@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-Este projeto foi desenvolvido para demonstrar clean architecture em porjetos .net core 3.1
+Este projeto foi desenvolvido para demonstrar clean architecture em projetos .net core 3.1
 
 
 ## Patterns
